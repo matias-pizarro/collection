@@ -24,7 +24,7 @@ print/cups
 ## www/foreign-cdm
 ## www/linux-widevine-cdm
 x11/arandr
-x11/kde5
+x11/kde6
 x11/sddm
 x11/xbindkeys
 x11/xorg

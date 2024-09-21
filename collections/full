@@ -1,0 +1,178 @@
+# BASE
+ftp/wget
+misc/freebsd-doc-en
+net/rsync
+ports-mgmt/pkg
+ports-mgmt/pkg-provides
+security/doas
+security/sudo
+shells/bash
+sysutils/acpi_call
+sysutils/htop
+sysutils/hw-probe
+sysutils/ncdu
+sysutils/sanoid
+sysutils/smartmontools
+sysutils/tmux
+xanadu/cfg
+# DESKTOP
+deskutils/plasma5-sddm-kcm
+graphics/drm-61-kmod
+multimedia/v4l-utils
+multimedia/v4l_compat
+print/cups
+## www/foreign-cdm
+## www/linux-widevine-cdm
+x11/arandr
+x11/kde5
+x11/sddm
+x11/xbindkeys
+x11/xorg
+x11/xterm
+# DEV
+devel/ccache4
+devel/cmake
+devel/git
+devel/git-gui
+devel/gmake
+devel/uv
+dns/dnsmasq
+## editors/linux-rl9-bcompare
+editors/linux-rl9-sublime-text4
+editors/vscode
+lang/go
+lang/python310
+databases/py-gdbm@py310
+databases/py-sqlite3@py310
+x11-toolkits/py-tkinter@py310
+lang/python311
+databases/py-gdbm@py311
+databases/py-sqlite3@py311
+x11-toolkits/py-tkinter@py311
+# lang/python312
+lang/rust
+security/strongswan
+sysutils/pwgen
+# FONTS
+x11-fonts/firacode
+x11-fonts/firago
+x11-fonts/hack-font
+x11-fonts/noto-tc
+x11-fonts/urwfonts
+# PORTING
+emulators/qemu-user-static
+ports-mgmt/portfmt
+ports-mgmt/portlint
+ports-mgmt/poudriere-devel
+vm-bhyve
+# PRODUCTIVITY
+accessibility/sctd
+archivers/7-zip
+deskutils/taskwarrior
+editors/libreoffice
+graphics/ImageMagick7
+misc/kbdscan
+multimedia/pwcview
+net/libzmq4
+net/rclone
+print/pdftk
+sysutils/android-file-transfer
+sysutils/android-file-transfer-qt5
+sysutils/dmidecode
+sysutils/exfat-utils
+sysutils/fusefs-exfat
+sysutils/fusefs-jmtpfs
+sysutils/neofetch
+sysutils/pftop
+sysutils/synergy
+sysutils/tree
+sysutils/xfsprogs
+sysutils/zfs-stats
+textproc/ripgrep-all
+www/newsboat
+x11/xdotool
+# SCIENTIFIC
+databases/arrow
+# SOCIAL
+## net-im/discordo
+## net-im/slack-term
+# TOOLING
+audio/audacity
+audio/deadbeef
+audio/sox
+graphics/gimp
+graphics/inkscape
+mail/thunderbird
+sysutils/cdrtools
+# VIRTUALIZATION
+net/tigervnc-viewer
+sysutils/bhyve-firmware
+sysutils/grub2-bhyve
+# sysutils/jailer
+sysutils/vm-bhyve-devel
+# WWW
+www/chromium
+www/firefox
+#
+#
+#
+#
+# REMOVED
+# databases/redis
+# deskutils/flameshot
+# deskutils/recoll
+# devel/geany
+# devel/grpc
+# devel/py-pipx
+# editors/abiword
+# editors/leafpad
+# ftp/filezilla
+# graphics/feh
+# graphics/scrot
+# graphics/viewnior
+# java/openjdk17-jre
+# lang/cython
+# math/blas
+# math/galculator
+# math/gnumeric
+# misc/qt5ct
+# misc/qt6ct
+# multimedia/celluloid
+# multimedia/cheese
+# multimedia/dav1d
+# net-im/pidgin
+# net-p2p/transmission-components
+# net/rdesktop
+# security/libotr
+# security/tailscale
+# sysutils/appjail
+# sysutils/automount
+# sysutils/beadm
+# sysutils/conky
+# sysutils/debootstrap
+# sysutils/docker
+# sysutils/docker-compose
+# sysutils/e2fsprogs
+# sysutils/fsearch
+# sysutils/zelta
+# textproc/the_silver_searcher
+# www/midori
+# www/nginx
+# x11-fm/caja
+# x11-fm/thunar
+# x11-themes/adwaita-qt5
+# x11-themes/adwaita-qt6
+# x11-wm/openbox
+# x11-wm/skippy-xd
+# x11/dmenu
+# x11/dzen2
+# x11/lupe
+# x11/mate-screensaver
+# x11/plank
+# x11/rxvt-unicode
+# x11/sakura
+# x11/tint
+# x11/wmctrl-fork
+# x11/xdm
+# x11/xlockmore
+# x11/zenity

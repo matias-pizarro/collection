@@ -1,0 +1,31 @@
+#!/bin/sh
+
+if [ "$( whoami )" = "root" ]; then
+    IS_ROOT="true"
+    DOAS_CMD=""
+else
+    DOAS_CMD=doas
+    command -v ${DOAS_CMD} > /dev/null || DOAS_CMD=sudo
+    command -v ${DOAS_CMD} > /dev/null || DOAS_CMD=none
+    if [ "${DOAS_CMD}" = "none" ]; then
+        echo "ERROR: sudo executable or equivalent not found. Please run as root."
+        exit 2
+    fi
+    DOAS_CMD=$(which ${DOAS_CMD})
+fi
+
+if [ "${1}" = "install" ]; then
+    MODE="install"
+    shift 1
+    COLLECTIONS=${1+"$@"}
+    ${DOAS_CMD} pkg lock -y git git-gui
+    for COLLECTION_NAME in ${COLLECTIONS}; do
+        COLLECTION="/usr/local/share/collections/${COLLECTION_NAME}"
+        if [ ! -f "${COLLECTION}" ]; then
+            echo "ERROR: ${COLLECTION} does not exist"
+            exit 5
+        fi
+        ${DOAS_CMD} pkg install $(cat "${COLLECTION}" | grep -v \#)
+    done
+    ${DOAS_CMD} pkg unlock -y git git-gui
+fi

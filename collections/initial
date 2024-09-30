@@ -26,8 +26,8 @@ graphics/drm-61-kmod
 multimedia/v4l-utils
 multimedia/v4l_compat
 print/cups
-www/foreign-cdm
-www/linux-widevine-cdm
+## www/foreign-cdm
+## www/linux-widevine-cdm
 x11/arandr
 x11/kde5
 x11/sddm
